@@ -98,7 +98,7 @@ public class Login extends Activity implements OnClickListener {
                     Log.d("Successfully Login!", json.toString());
 
                     Intent ii = new Intent(Login.this, OtherActivity.class);
-                    //startActivity(ii);
+                    startActivity(ii);
                     finish();
                     // this finish() method is used to tell android os that we are done with current //activity now! Moving to other activity
 

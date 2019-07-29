@@ -9,10 +9,11 @@
         android:id="@+id/login"
         android:layout_width="118dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/password"
         android:layout_alignLeft="@+id/password"
         android:layout_alignRight="@+id/password"
-        android:text="login" />
+        android:layout_below="@+id/password"
+        android:onClick="onClick"
+        android:text="@string/pg1_button" />
 
     <EditText
         android:id="@+id/username"

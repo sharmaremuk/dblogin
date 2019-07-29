@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Login</string>
-    <string name="hello_world">Hello world</string>
+    <string name="app_name">RX100</string>
+    <string name="pg1_button">Login</string>
+    <string name="pg2_button">Search</string>
 </resources>

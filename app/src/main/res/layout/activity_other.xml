@@ -4,9 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OtherActivity">
+    <Button
+        android:id="@+id/search"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/medicine"
+        android:layout_alignRight="@+id/medicine"
+        android:layout_below="@+id/medicine"
+        android:onClick="onClick"
+        android:text="@string/pg2_button" />
 
-    <TextView
+    <EditText
+        android:id="@+id/medicine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="Enter Medicine name"
+        android:imeOptions="actionNext" />
+
+    <ListView
+        android:id="@+id/PharmacyList"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp" />
+
+
+    <TextView
+        android:id="@+id/pharmacyName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
 </RelativeLayout>
